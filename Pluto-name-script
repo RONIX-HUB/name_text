@@ -1,0 +1,3 @@
+local MarketplaceService = game:GetService("MarketplaceService")
+local gamename = MarketplaceService:GetProductInfo(game.PlaceId)
+local name = "Pluto Hub - " .. gamename.Name
